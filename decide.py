@@ -33,8 +33,8 @@ correct_answers = ["C", "C", "C", "C", "A", "A", "B", "A", "A", "A"]
 # Get the current working directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Construct the file path for the video file
-video_file = os.path.join(current_dir, "decidejw.mp4")
+# Path to the video file in the repository
+video_file = os.path.join(current_dir, r"C:\Users\dmpta\OneDrive\Documents\DISC-MAIN\Education\Git\Git Kid JW Exam decide\Decide.mp4")
 
 # Display the video
 st.video(video_file) 
